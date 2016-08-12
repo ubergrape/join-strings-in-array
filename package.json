@@ -1,6 +1,6 @@
 {
   "name": "join-strings-in-array",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Joins strings in given array with the given or default delimiter",
   "main": "dist/index.js",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tyv/pick-react-known-prop.git"
+    "url": "git+https://github.com/ubergrape/join-strings-in-array.git"
   },
   "keywords": [
     "array",
@@ -25,9 +25,9 @@
   "author": "Yuri Tkachenko <yuri@yandex.ua>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tyv/pick-react-known-prop/issues"
+    "url": "https://github.com/ubergrape/join-strings-in-array/issues"
   },
-  "homepage": "https://github.com/tyv/pick-react-known-prop#readme",
+  "homepage": "https://github.com/ubergrape/join-strings-in-array#readme",
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
