@@ -18,8 +18,8 @@ joinStringsInArray(array[, delimeter = ' ', trimLast = false])
 ```js
 import joinStringsInArray from 'join-strings-in-array'
 
-joinStringsInArray(['a', 'b', {}, 'c']), // ['a b ', object, 'c']
-joinStringsInArray(['a', 'b', {}, 'c'], true), // ['a b', object, 'c']
-joinStringsInArray(['a', 'b', {}, 'c'], '-'), // ['a-b-', object, 'c']
-joinStringsInArray(['a', 'b', {}, 'c'], '-', true), // ['a-b', object, 'c']
+joinStringsInArray(['a', 'b', {}, 'c']), // ['a b ', {}, 'c']
+joinStringsInArray(['a', 'b', {}, 'c'], true), // ['a b', {}, 'c']
+joinStringsInArray(['a', 'b', {}, 'c'], '-'), // ['a-b-', {}, 'c']
+joinStringsInArray(['a', 'b', {}, 'c'], '-', true), // ['a-b', {}, 'c']
 ```
