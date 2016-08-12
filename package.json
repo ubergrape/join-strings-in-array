@@ -1,0 +1,46 @@
+{
+  "name": "join-strings-in-array",
+  "version": "0.0.1",
+  "description": "Joins strings in given array with the given or default delimiter",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "scripts": {
+    "build": "rimraf build && webpack",
+    "prestart": "npm run build",
+    "test": "npm run build && mocha dist/test.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyv/pick-react-known-prop.git"
+  },
+  "keywords": [
+    "array",
+    "join",
+    "string",
+    "strings"
+  ],
+  "author": "Yuri Tkachenko <yuri@yandex.ua>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyv/pick-react-known-prop/issues"
+  },
+  "homepage": "https://github.com/tyv/pick-react-known-prop#readme",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.9.0",
+    "eslint-config-ubergrape": "^3.0.0",
+    "eslint-plugin-react": "^5.2.2",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-config-airbnb": "^1.0.0",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.5.1",
+    "webpack": "^1.12.12"
+  }
+}
