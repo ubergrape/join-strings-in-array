@@ -1,6 +1,6 @@
 {
   "name": "join-strings-in-array",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Joins strings in given array with the given or default delimiter",
   "main": "dist/index.js",
   "files": [
