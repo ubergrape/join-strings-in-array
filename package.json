@@ -1,15 +1,15 @@
 {
   "name": "join-strings-in-array",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Joins strings in given array with the given or default delimiter",
   "main": "dist/index.js",
   "files": [
     "dist/index.js"
   ],
   "scripts": {
-    "build": "rimraf build && webpack",
-    "prestart": "npm run build",
-    "test": "npm run build && mocha dist/test.js",
+    "build": "rimraf dist && webpack --config webpack.config.dist",
+    "build:tests": "rimraf tests && webpack --config webpack.config.tests",
+    "test": "npm run build && npm run build:tests && mocha tests/index.js",
     "prepublish": "npm run build"
   },
   "repository": {

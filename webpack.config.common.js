@@ -18,8 +18,7 @@ module.exports = {
 
   resolve: {
     modulesDirectories: [
-      'node_modules',
-      'dist'
+      'node_modules'
     ]
   },
 

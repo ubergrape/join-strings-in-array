@@ -1,5 +1,5 @@
 import assert from 'assert'
-import joinStringsInArray from '../src/joinStringsInArray'
+import joinStringsInArray from '../dist'
 
 const object = {}
 
